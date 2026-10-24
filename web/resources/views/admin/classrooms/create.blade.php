@@ -1,0 +1,1 @@
+<x-layouts.app><div class="page-heading"><div><p class="eyebrow">DATA MASTER</p><h1>Tambah Kelas</h1></div></div><form method="POST" action="{{ route('admin.classrooms.store') }}" class="content-card form-card">@csrf @include('admin.classrooms._form', ['classroom' => null])</form></x-layouts.app>

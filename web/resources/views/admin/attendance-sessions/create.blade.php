@@ -1,0 +1,1 @@
+<x-layouts.app><div class="page-heading"><div><p class="eyebrow">OPERASIONAL</p><h1>Buat Sesi Presensi</h1></div></div><form method="POST" action="{{ route('admin.attendance-sessions.store') }}" class="content-card form-card">@csrf @include('admin.attendance-sessions._form', ['attendanceSession' => null])</form></x-layouts.app>

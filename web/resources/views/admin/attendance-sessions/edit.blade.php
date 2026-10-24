@@ -1,0 +1,1 @@
+<x-layouts.app><div class="page-heading"><div><p class="eyebrow">OPERASIONAL</p><h1>Ubah Sesi Presensi</h1></div></div><form method="POST" action="{{ route('admin.attendance-sessions.update', $attendanceSession) }}" class="content-card form-card">@csrf @method('PUT') @include('admin.attendance-sessions._form')</form></x-layouts.app>

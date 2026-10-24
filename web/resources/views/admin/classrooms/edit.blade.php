@@ -1,0 +1,1 @@
+<x-layouts.app><div class="page-heading"><div><p class="eyebrow">DATA MASTER</p><h1>Ubah Kelas</h1></div></div><form method="POST" action="{{ route('admin.classrooms.update', $classroom) }}" class="content-card form-card">@csrf @method('PUT') @include('admin.classrooms._form')</form></x-layouts.app>
